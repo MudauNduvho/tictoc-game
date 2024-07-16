@@ -1,0 +1,139 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Select box styling */
+  .select-box {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .select-box header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .select-box .content {
+    background-color: #388e3c; /* Darker green */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .select-box .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .select-box .options {
+    margin-bottom: 20px;
+  }
+  
+  .select-box .options button {
+    background-color: #1b5e20; /* Dark green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .select-box .options button:hover {
+    background-color: #0a3d15; /* Darker green on hover */
+  }
+  
+  .select-box .credit {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  /* Play board styling */
+  .play-board {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .play-board .details {
+    text-align: center;
+  }
+  
+  .play-board .players {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .play-board .slider {
+    width: 50px;
+    height: 5px;
+    background-color: #8bc34a; /* Light green */
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  .play-board .play-area {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+  }
+  
+  .play-board .play-area section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .play-board .play-area span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #cddc39; /* Lime */
+    text-align: center;
+    line-height: 100px;
+    font-size: 36px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .play-board .play-area span:hover {
+    background-color: #afb42b; /* Darker lime on hover */
+  }
+  
+  /* Result box styling */
+  .result-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .result-box .won-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .result-box .btn button {
+    background-color: #2196f3; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .result-box .btn button:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+  }
+  
